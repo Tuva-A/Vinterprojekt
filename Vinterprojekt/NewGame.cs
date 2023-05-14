@@ -19,13 +19,13 @@ public class NewGame {
 		gameEngine.ThePlayer = new Player(id++,"Lucifer","A handsome detective",10,80,"outside",false);
 
 		//Skapa npc:er.
-		gameEngine.Npcs.Add(new NPC(id++, "Gregory","Owner of the house. Greg's uncle. Quite dead.",100,75,"library",false,new List<string>(){"I did it!", "I think Elizabeth is the guilty", "I am a vegan"},true));
-		gameEngine.Npcs.Add(new NPC(id++, "Elizabeth", "Gregory's wife. In love with Greg",50,45,"livingroom",false,new List<string>(){"I did it!", "I think Jeeves is the guilty", "I am a penguin"},false)); 
-		gameEngine.Npcs.Add(new NPC(id++, "Greg","Gregory’s nephew; in love with Winchester",120,80,"livingroom",false,new List<string>(){"I did it!", "I think Sarah is the guilty", "I am a russian attack helicopter"},false));
-		gameEngine.Npcs.Add(new NPC(id++, "Sarah","Maid; having an affair with Gregory",90,55,"kitchen",false,new List<string>(){"I did it!", "I think Elizabeth is the guilty", "I am a android"},false));
-		gameEngine.Npcs.Add(new NPC(id++, "Jeeves","The butler, definetly the killer",110,78,"hallway",false,new List<string>(){"I certainly did it!", "I think I am the guilty", "I am a penguin too"},false));
-		gameEngine.Npcs.Add(new NPC(id++, "Olivia", "Greg’s girlfriend",72,51,"livingroom",false,new List<string>(){"I did it!", "I think Winchester is the guilty", "I am a fruit"},false));
-		gameEngine.Npcs.Add(new NPC(id++, "Winchester","Gardener; in love with Greg",130,92,"livingroom",false,new List<string>(){"I did it!", "I think Gregory commited suicide", "I am a fruity fruit"},false));
+		gameEngine.Npcs.Add(new NPC(id++, "Gregory","Owner of the house. Greg's uncle. Quite dead.",100,75,"library",false,new List<string>(){"Why would I know who killed me? You are the detective, figure it out!", "Let me rest in peace.", "Please find my killer.. and make them pay for this!"},true));
+		gameEngine.Npcs.Add(new NPC(id++, "Elizabeth", "Gregory's wife. In love with Greg",50,45,"livingroom",false,new List<string>(){"I was nowhere near the scene of the crime at the time it occured!", "I don't feel comfortable talking about this.", "I think it's important to remain objective and impartial."},false)); 
+		gameEngine.Npcs.Add(new NPC(id++, "Greg","Gregory's nephew; in love with Winchester",120,80,"livingroom",false,new List<string>(){"I had an argument with him yesterday, but I would never harm him!", "I really hope you have found some leads.", "I can't believe he's gone. It feels like a nightmare."},false));
+		gameEngine.Npcs.Add(new NPC(id++, "Sarah","Maid; having an affair with Gregory",90,55,"kitchen",false,new List<string>(){"I'm not saying I did it, but I'm happy he's dead.", "I think Elizabeth is guilty, I saw her sneaking around yesterday.", "I don't want to get involved in any drama."},false));
+		gameEngine.Npcs.Add(new NPC(id++, "Jeeves","The butler, definetly the killer",110,78,"hallway",false,new List<string>(){"I think I did it...", "G'day sir!", "I did notice a fight between the master and the maid sir."},false));
+		gameEngine.Npcs.Add(new NPC(id++, "Olivia", "Greg's girlfriend",72,51,"livingroom",false,new List<string>(){"I barely know any of these people, why would i kill him!?", "I can't really say anything, other than it's an unfortunate event.", "It's a shame really."},false));
+		gameEngine.Npcs.Add(new NPC(id++, "Winchester","Gardener; in love with Greg",130,92,"livingroom",false,new List<string>(){"I did see someone suspicious in the area around that time, but uh, I didn't quite get a look at their face. Please don't ask anything more.", "I think Gregory commited suicide, with the company going bankrupt and all.", "Hello detective."},false));
 
 		//Skapa items.
 		WaltherPKK walther = new WaltherPKK(id++,"WaltherPKK","A quite ordinary Walther PKK",1,"Examine text set by class");
