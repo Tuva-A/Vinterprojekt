@@ -23,7 +23,7 @@ public class NewGame {
 		gameEngine.Npcs.Add(new NPC(id++, "Elizabeth", "Gregory's wife. In love with Greg",50,45,"livingroom",false,new List<string>(){"I did it!", "I think Jeeves is the guilty", "I am a penguin"},false)); 
 		gameEngine.Npcs.Add(new NPC(id++, "Greg","Gregory’s nephew; in love with Winchester",120,80,"livingroom",false,new List<string>(){"I did it!", "I think Sarah is the guilty", "I am a russian attack helicopter"},false));
 		gameEngine.Npcs.Add(new NPC(id++, "Sarah","Maid; having an affair with Gregory",90,55,"kitchen",false,new List<string>(){"I did it!", "I think Elizabeth is the guilty", "I am a android"},false));
-		gameEngine.Npcs.Add(new NPC(id++, "Jeeves","The butler, definetly the killer",110,78,"hallway",false,new List<string>(){"I did it!", "I think I am the guilty", "I am a penguin too"},false));
+		gameEngine.Npcs.Add(new NPC(id++, "Jeeves","The butler, definetly the killer",110,78,"hallway",false,new List<string>(){"I certainly did it!", "I think I am the guilty", "I am a penguin too"},false));
 		gameEngine.Npcs.Add(new NPC(id++, "Olivia", "Greg’s girlfriend",72,51,"livingroom",false,new List<string>(){"I did it!", "I think Winchester is the guilty", "I am a fruit"},false));
 		gameEngine.Npcs.Add(new NPC(id++, "Winchester","Gardener; in love with Greg",130,92,"livingroom",false,new List<string>(){"I did it!", "I think Gregory commited suicide", "I am a fruity fruit"},false));
 
